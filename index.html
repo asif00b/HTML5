@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Project</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 3rem;
+      }
+      table {
+        border: 1px solid red;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        color: blue;
+        padding: 10px;
+        border: 1px solid red;
+      }
+      input {
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+      span {
+        color: red;
+      }
+      .logo {
+        display: block;
+        margin: 0 auto;
+        animation: logo infinite 1s linear;
+        height: 120px;
+        width: 120px;
+      }
+      @keyframes logo {
+        0% {
+          transform: rotate(0deg) translateZ(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .logo:hover {
+        animation-duration: 0.1s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Website Heading</h1>
+    <img class="logo" src="images/logo.png" alt="logo" />
+    <hr />
+    <iframe
+      width="50%"
+      height="450px"
+      src="https://www.youtube.com/embed/C3NTM5vZ_Ao"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      width="48%"
+      height="450px"
+      src="http://www.studywithanis.com/"
+    ></iframe>
+    <hr />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, adipisci
+      distinctio! Sunt neque veniam explicabo placeat repudiandae laborum culpa
+      vero possimus sit id eligendi delectus, quam aspernatur tempora ut,
+      doloribus dolores voluptatum in iste tenetur accusamus, veritatis beatae
+      praesentium obcaecati. Beatae, sunt corrupti minus temporibus laboriosam
+      cumque vitae dolore dolores. Saepe tempora enim illo! Odio molestiae
+    </p>
+    <p>
+      voluptatibus culpa labore iste impedit nostrum vero voluptatem alias
+      quisquam aperiam nihil dicta tenetur aut provident eaque vel, incidunt,
+      modi et ea. Vel perferendis, totam nobis expedita soluta doloribus vero
+      dicta earum quas ab error sunt rerum mollitia voluptatum provident
+      praesentium molestiae nisi nesciunt?
+    </p>
+    <hr />
+    <table>
+      <p>Student Information</p>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>GPA</th>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>ASIF</td>
+        <td>3.50</td>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>ASIF</td>
+        <td>3.50</td>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>ASIF</td>
+        <td>3.50</td>
+      </tr>
+    </table>
+    <hr />
+    <form action="">
+      <fieldset>
+        <legend>Your Details</legend>
+
+        <p>Username: <input type="text" placeholder="username" required /></p>
+        <p>
+          Password: <input type="password" placeholder="password" required />
+        </p>
+
+        <p>Email: <input type="email" placeholder="email" /></p>
+        <p>
+          Gender: <input type="radio" name="Gender" />Male
+          <input type="radio" name="Gender" />Female
+        </p>
+        <p>
+          Religion:
+          <input type="checkbox" checked />Islam <input type="checkbox" />Other
+        </p>
+        <p>
+          Department:
+          <select name="department" id="">
+            <option value="CSE">CSE</option>
+            <option value="BBA">CSE</option>
+            <option value="MBA">CSE</option>
+          </select>
+        </p>
+        <p>
+          Feedback: <br />
+          <textarea name="" id="" cols="30" rows="3"></textarea>
+        </p>
+        <input type="submit" value="Send" />
+        <input type="reset" value="Clean" />
+      </fieldset>
+    </form>
+    <hr />
+    <ol>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Youtube</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ol>
+    <hr />
+    <p>Developed by <span>&copy;MD ASIF</span></p>
+  </body>
+</html>
